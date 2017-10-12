@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS Reset stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Bootstrap Library -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- JavaScript Library-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- External Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<title>
+		Crystals Game
+	</title>
+
+</head>
+
+<body>
+
+	<!-- The Bootstrap Container -->
+	<div class="container">
+
+		<header class="header">
+			<h1>Crystals Collector!</h1>
+		</header>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="instructions">
+
+					<p>You will be given a random number at the start of the game.</p>
+					<br>
+					<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+					<br>
+					<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+					<br>
+					<p>The value of each crystal is hidden from you until you click on it.</p>
+					<br>
+					<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="userArea">
+
+			<p id="displayTargetScore"></p>
+			<p id="displayWins"></p>
+			<p id="displayLosses"></p>
+
+		</div>
+
+		<div class="images">
+			
+			<img class="img-rounded" id="crystal1" src="assets/images/crystal1.jpg" value=0 alt="Crystal 1">
+			<img class="img-rounded" id="crystal2" src="assets/images/crystal2.jpg" value=1 alt="Crystal 2">
+			<img class="img-rounded" id="crystal3" src="assets/images/crystal3.jpg" value=2 alt="Crystal 3">
+			<img class="img-rounded" id="crystal4" src="assets/images/crystal4.jpg" value=3 alt="Crystal 4">
+
+		</div>
+
+		<div class="scoreArea">
+			
+			<p id="displayUserSum"></p>
+			<p id="wonLost"></p>
+
+		</div>
+
+	</div>
+
+	<!-- Javascript Game Code -->
+	<script src="assets/javascript/game.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,54 @@
+/** {
+	outline: 1px dotted red;
+}
+*/
+body {
+
+}
+
+header {
+	background-color: Aquamarine;
+	color: black;
+	text-align: center;
+
+}
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+#crystal1,
+#crystal2,
+#crystal3,
+#crystal4 {
+	cursor: pointer;
+}
+
+.images {
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+.instructions {
+	padding: 10px;
+	margin: 10px;
+	background-color: Bisque;
+	font-weight: bold;
+}
+
+.userArea {
+	padding: 10px;
+	margin: 10px;
+	background-color: IndianRed;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.scoreArea {
+	padding: 10px;
+	margin: 10px;
+	background-color: AliceBlue;
+	font-size: 24px;
+}
